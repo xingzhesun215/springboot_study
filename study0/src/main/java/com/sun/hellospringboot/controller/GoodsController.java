@@ -36,6 +36,12 @@ public class GoodsController {
      * 新增商品
      * 1、@PostMapping表示使用post方法
      * 2、@RequestBody表示将请求中的json信息转换为GoodsDo类型的对象信息，该转换也是由SpringMVC自动完成的
+     * {
+     *                 "id" : 2 ,
+     *                 "name" : "pingguo",
+     *                 "price" : 12,
+     *                 "pic'" : "pic"
+     *                 }
      */
     @PostMapping("/goods")
     public String add(@RequestBody GoodsDo goods) {
