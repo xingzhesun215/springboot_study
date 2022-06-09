@@ -1,7 +1,7 @@
-package com.sun.study1_jpa.controller;
+package com.sun.study2_druid.controller;
 
-import com.sun.study1_jpa.dao.GoodsDao;
-import com.sun.study1_jpa.domain.GoodsDo;
+import com.sun.study2_druid.dao.GoodsDao;
+import com.sun.study2_druid.domain.GoodsDo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

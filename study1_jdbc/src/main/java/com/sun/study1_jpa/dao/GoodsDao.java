@@ -1,5 +1,6 @@
-package com.sun.study1_jpa;
+package com.sun.study1_jpa.dao;
 
+import com.sun.study1_jpa.domain.GoodsDo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;

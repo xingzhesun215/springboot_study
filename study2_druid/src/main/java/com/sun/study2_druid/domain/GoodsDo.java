@@ -1,4 +1,4 @@
-package com.sun.study1_jpa;
+package com.sun.study2_druid.domain;
 
 /**
  * 商品类
