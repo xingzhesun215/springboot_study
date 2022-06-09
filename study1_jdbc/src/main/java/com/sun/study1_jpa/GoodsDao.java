@@ -60,8 +60,8 @@ public class GoodsDao {
     /**
      * 查询商品列表
      */
-    public List<GoodsDo> getList() {
-        return jdbcTemplate.query("select * from goods", new RowMapper<GoodsDo>() {
+    public List<GoodsDo> getList(int size) {
+        return jdbcTemplate.query("select * from goods LIMIT "+size, new RowMapper<GoodsDo>() {
             @Override
             public GoodsDo mapRow(ResultSet rs, int rowNum) throws SQLException {
                 GoodsDo goods = new GoodsDo();
