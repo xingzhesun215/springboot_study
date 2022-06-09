@@ -3,6 +3,7 @@ package com.sun.study4_mybatis.controller;
 import com.sun.study4_mybatis.dao.GoodsDao;
 import com.sun.study4_mybatis.domain.GoodsDo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -37,6 +38,25 @@ public class GoodsController {
         return "{result:\"success\"}";
     }
 
+
+    @ResponseBody
+    @PostMapping("/goods/add")
+    @Transactional
+    public String add() {
+        GoodsDo goodsDo = new GoodsDo();
+        goodsDo.setName("hello1");
+        goodsDo.setPic("mypic1");
+        goodsDo.setPrice("342");
+        goodsDao.insert(goodsDo);
+        double result = 1 / 0;//
+        goodsDo = new GoodsDo();
+        goodsDo.setName("hello2");
+        goodsDo.setPic("mypic2");
+        goodsDo.setPrice("343");
+        goodsDao.insert(goodsDo);
+        return "{result:\"success\"}";
+    }
+
     @ResponseBody
     @PutMapping("/goods/{id}")
     public String add(@PathVariable("id") int id, @RequestBody GoodsDo newGoods) {
@@ -55,7 +75,7 @@ public class GoodsController {
     @ResponseBody
     @DeleteMapping("/goods/{id}")
     public String delete(@PathVariable("id") int id) {
-        System.out.println("id="+id);
+        System.out.println("id=" + id);
         GoodsDo goods = goodsDao.selectOne((long) id);
         if (goods == null) {
             return "{result:\"null\"}";
