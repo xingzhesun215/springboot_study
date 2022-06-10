@@ -69,3 +69,10 @@ logging.file.name=spring-boot-log.log
 logging.config=classpath:logback-spring.xml
 2)引入目录,logback-spring.xml
 
+2)定时任务功能
+1,添加Component注解,添加Scheduled注解支持方法,在Application加入EnableScheduling以开启定时任务
+2,@Scheduled(fixedRate = 2000)每2秒执行一次
+3,@Scheduled(fixedDelay = 2000)执行当次后2秒后再执行
+4,也可以使用cron进行定时
+5,需要更加全面的功能,可以使用Quartz依赖
+

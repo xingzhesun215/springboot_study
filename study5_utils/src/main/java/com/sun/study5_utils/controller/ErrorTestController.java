@@ -22,8 +22,9 @@ public class ErrorTestController {
 
     @ResponseBody
     @RequestMapping("/hello")
-    public String jhello() {
+    public String jhello(){
 
+        int a = 1 / 0;
         return "Hello Springboot!!!   hello";
     }
 

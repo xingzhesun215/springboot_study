@@ -46,10 +46,11 @@ public class ResultDo<T> {
         if (ex instanceof BaseException) {
             this.code = ((BaseException) ex).getCode();
             this.msg = ex.getMessage();
+            this.data = null;
         } else {
             this.code = -1;// 其他未定义异常
             this.msg = ex.getMessage();
+            this.data = null;
         }
     }
-    // 省略 get set
 }
