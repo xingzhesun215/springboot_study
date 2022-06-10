@@ -1,0 +1,128 @@
+2022-06-10 13:43:40.238 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                Starting Study5UtilsApplication using Java 1.8.0_131 on DESKTOP-IL2IU01 with PID 32680 (F:\Sun_Springboot\springboot_study\study5_utils\target\classes started by Administrator in F:\Sun_Springboot\springboot_study\study5_utils)
+2022-06-10 13:43:40.240 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2022-06-10 13:43:41.055 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 1006 (http)
+2022-06-10 13:43:41.061 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-1006"]
+2022-06-10 13:43:41.061 [main] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2022-06-10 13:43:41.062 [main] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-10 13:43:41.171 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2022-06-10 13:43:41.171 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 896 ms
+2022-06-10 13:43:41.227 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure -
+                Init DruidDataSource
+2022-06-10 13:43:41.300 [main] INFO  com.alibaba.druid.pool.DruidDataSource -
+                {dataSource-1} inited
+2022-06-10 13:43:41.580 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-1006"]
+2022-06-10 13:43:41.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 1006 (http) with context path ''
+2022-06-10 13:43:41.649 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                Started Study5UtilsApplication in 1.937 seconds (JVM running for 2.645)
+2022-06-10 13:47:55.223 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                Starting Study5UtilsApplication using Java 1.8.0_131 on DESKTOP-IL2IU01 with PID 64936 (F:\Sun_Springboot\springboot_study\study5_utils\target\classes started by Administrator in F:\Sun_Springboot\springboot_study\study5_utils)
+2022-06-10 13:47:55.225 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2022-06-10 13:47:56.202 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 1006 (http)
+2022-06-10 13:47:56.209 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-1006"]
+2022-06-10 13:47:56.209 [main] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2022-06-10 13:47:56.209 [main] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-10 13:47:56.322 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2022-06-10 13:47:56.322 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1044 ms
+2022-06-10 13:47:56.379 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure -
+                Init DruidDataSource
+2022-06-10 13:47:56.450 [main] INFO  com.alibaba.druid.pool.DruidDataSource -
+                {dataSource-1} inited
+2022-06-10 13:47:56.767 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-1006"]
+2022-06-10 13:47:56.829 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 1006 (http) with context path ''
+2022-06-10 13:47:56.836 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                Started Study5UtilsApplication in 2.097 seconds (JVM running for 2.795)
+2022-06-10 13:48:32.348 [http-nio-1006-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-10 13:48:32.348 [http-nio-1006-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2022-06-10 13:48:32.349 [http-nio-1006-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 0 ms
+2022-06-10 13:48:32.368 [http-nio-1006-exec-1] WARN  c.sun.study5_utils.controller.ErrorTestController -
+                throw password exception
+2022-06-10 13:48:58.434 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                Starting Study5UtilsApplication using Java 1.8.0_131 on DESKTOP-IL2IU01 with PID 50708 (F:\Sun_Springboot\springboot_study\study5_utils\target\classes started by Administrator in F:\Sun_Springboot\springboot_study\study5_utils)
+2022-06-10 13:48:58.437 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2022-06-10 13:48:59.366 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 1006 (http)
+2022-06-10 13:48:59.375 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-1006"]
+2022-06-10 13:48:59.375 [main] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2022-06-10 13:48:59.376 [main] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-10 13:48:59.503 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2022-06-10 13:48:59.503 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1017 ms
+2022-06-10 13:48:59.558 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure -
+                Init DruidDataSource
+2022-06-10 13:48:59.645 [main] INFO  com.alibaba.druid.pool.DruidDataSource -
+                {dataSource-1} inited
+2022-06-10 13:48:59.934 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-1006"]
+2022-06-10 13:48:59.992 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 1006 (http) with context path ''
+2022-06-10 13:48:59.999 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                Started Study5UtilsApplication in 2.216 seconds (JVM running for 2.882)
+2022-06-10 13:49:04.106 [http-nio-1006-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-10 13:49:04.107 [http-nio-1006-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2022-06-10 13:49:04.107 [http-nio-1006-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 0 ms
+2022-06-10 13:49:04.126 [http-nio-1006-exec-1] WARN  c.sun.study5_utils.controller.ErrorTestController -
+                throw password exception
+2022-06-10 13:50:06.567 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                Starting Study5UtilsApplication using Java 1.8.0_131 on DESKTOP-IL2IU01 with PID 42896 (F:\Sun_Springboot\springboot_study\study5_utils\target\classes started by Administrator in F:\Sun_Springboot\springboot_study\study5_utils)
+2022-06-10 13:50:06.571 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2022-06-10 13:50:07.495 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 1006 (http)
+2022-06-10 13:50:07.502 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-1006"]
+2022-06-10 13:50:07.502 [main] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2022-06-10 13:50:07.502 [main] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-10 13:50:07.620 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2022-06-10 13:50:07.620 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1006 ms
+2022-06-10 13:50:07.681 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure -
+                Init DruidDataSource
+2022-06-10 13:50:07.755 [main] INFO  com.alibaba.druid.pool.DruidDataSource -
+                {dataSource-1} inited
+2022-06-10 13:50:08.054 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-1006"]
+2022-06-10 13:50:08.120 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 1006 (http) with context path ''
+2022-06-10 13:50:08.128 [main] INFO  com.sun.study5_utils.Study5UtilsApplication -
+                Started Study5UtilsApplication in 2.111 seconds (JVM running for 2.82)
+2022-06-10 13:50:10.235 [http-nio-1006-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-10 13:50:10.236 [http-nio-1006-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2022-06-10 13:50:10.237 [http-nio-1006-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 1 ms
+2022-06-10 13:50:10.256 [http-nio-1006-exec-1] WARN  c.sun.study5_utils.controller.ErrorTestController -
+                throw password exception

@@ -1,8 +1,13 @@
 package com.sun.study5_utils.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * 商品类
  */
+@Getter
+@Setter
 public class GoodsDo {
     /**
      * 商品id
@@ -21,35 +26,4 @@ public class GoodsDo {
      */
     private String pic;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPrice() {
-        return price;
-    }
-
-    public void setPrice(String price) {
-        this.price = price;
-    }
-
-    public String getPic() {
-        return pic;
-    }
-
-    public void setPic(String pic) {
-        this.pic = pic;
-    }
 }

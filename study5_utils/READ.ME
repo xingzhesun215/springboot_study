@@ -38,4 +38,34 @@ spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
 3,添加配置类DruidConfig,使用Configuration修饰,包括登录账号及密码等信息
 http://localhost:1006/druid admin   admin
 
+2022 0610
+1)添加日志功能
+常规操作
+1,#设置日志级别(只有WARM以上的才显示)
+logging.level.root=WARN
+2,在使用的位置引用并打印日志
+  		private Logger logger = LoggerFactory.getLogger(this.getClass());
+        logger.debug("hello debug");
+        logger.error("hello error");
+        logger.warn("hello warn");
+3,也可以设置日志保存文件
+# 3设置日志文件(study5_utils/spring-boot-log.log)
+logging.file.name=spring-boot-log.log
+非常规操作 使用 lombok 插件简化日志代码/使用Hrisey Plugins也可,其内置lombok
+1,添加lombok依赖支持
+	    <!-- lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.12</version>
+			<scope>provided</scope>
+		</dependency>
+2,直接使用,不用实例化log对象 @log
+        log.warning("hello debug");
+        log.info( "hello info");
+
+3,超神做法 使用配置文件,在清单文件写入日志配置目录
+1)# 指定logback配置文件，位于resources目录下
+logging.config=classpath:logback-spring.xml
+2)引入目录,logback-spring.xml
 
