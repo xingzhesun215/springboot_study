@@ -35,7 +35,7 @@ public class GoodsService {
      */
     public GoodsDo getGoodsById(Long id) {
         GoodsDo goods = new GoodsDo();
-        goods.setId(1L);
+        goods.setId(id);
         goods.setName("苹果");
         goods.setPic("apple.jpg");
         goods.setPrice("3.5");

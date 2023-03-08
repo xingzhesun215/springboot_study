@@ -18,14 +18,14 @@ public class MySpringTask {
 
     @Scheduled(fixedRate = 2000)
     public void fixedRateMethod() throws Exception {
-        log.warning("2 second run fixedRateMethod" + new Date());
+//        log.warning("2 second run fixedRateMethod" + new Date());
         Thread.sleep(1000);
     }
 
 
     @Scheduled(fixedDelay = 2000)
     public void fixedDelayMethod() throws Exception {
-        log.warning("2 second run fixedDelay" + new Date());
+//        log.warning("2 second run fixedDelay" + new Date());
         Thread.sleep(1000);
     }
 
@@ -52,6 +52,6 @@ public class MySpringTask {
      */
     @Scheduled(cron = "0 0 0 * * ?")
     public void stock() throws InterruptedException {
-        System.out.println("置满库存:" + new Date());
+        System.out.println(":" + new Date());
     }
 }
